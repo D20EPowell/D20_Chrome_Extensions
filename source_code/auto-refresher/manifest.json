@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "D20 Auto Refresher",
+  "version": "1.8",
+  "permissions": ["storage"],
+  "storage": {
+    "managed_schema": "schema.json"
+  },
+  "description": "Silently refreshes the current tab.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["refresh.js"]
+    }
+  ]
+}

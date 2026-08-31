@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "idleTimeoutSeconds": {
+      "title": "Idle Timeout (Seconds)",
+      "description": "Seconds of inactivity before page refresh.",
+      "type": "integer"
+    }
+  }
+}
