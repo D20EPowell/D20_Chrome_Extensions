@@ -6,5 +6,6 @@
       "description": "Seconds of inactivity before page refresh.",
       "type": "integer"
     }
-  }
+  },
+  "additionalProperties": false
 }
